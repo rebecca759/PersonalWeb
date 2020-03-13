@@ -62,7 +62,37 @@
                             <tr><td><h3>Contact Me!</h3>
                                 </td></tr>
         
-                            
+                            <table cellpadding = "10">
+                                <form method="POST" action="mailto:se.rebecca.samuel@gmail.com"  enctype="utf-8">
+                                    <tr>
+                                        <td><label for="name">First Name: </label></td>
+                                        <td><input type="text" name="fName" id = "fName" pattern="[A-Za-z]{1,20}" title="Numbers aren't allowed in names" required></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="name">Last Name: </label></td>
+                                        <td><input type="text" name="lName" id="lName" pattern="[A-Za-z]{1,20}" title="Numbers aren't allowed in names" required></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="email">Email: </label></td>
+                                        <td><input type="email" name="email" id="email" required></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="telephone">Phone Number: </label></td>
+                                        <td><input type="tel" name="tel" id="tel"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="date"> Birth Date:</label></td>
+                                        <td><input type="date" name="date" id = date></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="detail">Leave Your Comment Here: </label></td>
+                                        <td><textarea name="comment" id="comment" cols="30" rows="15"></textarea></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="submit" value="Submit"></td>
+                                    </tr>
+                                </form>
+                            </table>
                         </table>
                         <tr><td><hr></td></tr>
                     </td>
