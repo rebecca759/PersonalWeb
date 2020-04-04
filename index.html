@@ -7,115 +7,48 @@
     <link rel = "icon" href =  
     "./assets/images/icon2.png" 
             type = "image/x-icon">
-
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/6454e424b1.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/mystyle.css">
+    
 </head>
-<body bgcolor=#999999>
-<br>
-<table bgcolor="white" align="center" width = "1210" height = "800" cellpadding = "1">
-<tr>
-<td>
-    <table >
-        <tr>
-            <td>
-            <table>
-                <tr>
-                    <td><img src="assets/images/icon.png" alt="Rebecca's Profile image"></td>
-                    <td><h1>Rebecca Samuel</h1></td>
-                    <td><pre>                                                                         </pre></td>
-                        <td>
-                        <table>
-                            <tr>
-                                <td><input type="search" id="site-search" name="q"
-                                    aria-label="Search through site content"></td>
-                                <td>
-                                    <select name="Search this iste" id="serach-option"> 
-                                        <option value="site">Search this site</option>
-                                        <option value="web">Search the web</option>   
-                                    </select>
-                                </td>
-                            </tr>
-                        </table>                                                                                                                                                                                
-                    </td>
-                </tr>
-            </table>
-            <tr><td><hr></td></tr>
-            <table>
-                <tr>
-                <td>
-                    <table cellpadding = "2">
-                        <tr><td>se.rebecca.samuel@gmail.com</td>
-                        </tr>
-                        <tr><td><hr></td></tr>
-                        <tr>
-                            <td><a href="index.html">Home</a></td>
-                        </tr>
-                        <tr><td><a href="other_pages/about.html">About Me</a></td></tr>
-                        <tr><td><a href="other_pages/code.html">Programming</a></td></tr>
-                        <tr><td><a href="other_pages/contact.html">Contact </a></td></tr>
-                        <tr><td><a href="other_pages/cv.html">Curriculum Vitae</a></td></tr>
-                        <tr><td><hr></td></tr>
-                            <tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr>
-                            <tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr>
-                            <tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr>
-                    </table>
-                </td>
-                <td><hr width="1" size="600"></td> 
-                <td>
-                    <table>
-                        <tr><td><h3>Current Positions</h3>
-                            </td></tr>
-                        <tr><td><ul><li>A second year Undergraduate Student at <a href="http://www.aau.edu.et/" target="_blank">Addis Ababa University</a> , pursuing a degree in Software Engineering. </li></ul></td></tr>
-                        <tr><td>I am passionate about exploring new things, adventurous and love taking risks.</td></tr>
-                        <tr><td>When I first decided to study Software Engineering, I didn't have much knowledge about the field; It was a suggestion from my brother and all I knew was that I loved science and computing. I didn't think I would
-                            find the field as interesting. Now after a year in this major, I think its one of the best decisions I've made. I love the ability of a programmer to make a machine work as per his/her desire just by writing a few commands. Eventhough it can be a bit tough and frustrating at times, 
-                        I've learned to take things one step at a time and be patient.</td></tr>
-                        <tr><td> I look forward to the next years of learning new things about programming and hopefully make a difference in my community.</td></tr>
-                        <table >
-                            <h3>Interests</h3>
-                                <ul >
-                                    <li>Sports
-                                    <ul>
-                                        <li>Swimming</li>
-                                        <li>Tennis</li>
-                                        <li>Running</li>
-                                    </ul></li>
-                                    <li>Volunteer Work/ Community Involvement</li>
-                                    <li>Music</li>
-                                    <li>Reading</li>
-                                </ul>   
-                            <h3>Goals</h3>  
-                            <ul>
-                                <li>Get to work with my parents and help them take their businesses to the next level</li>
-                                <li> Master another language</li>
-                                <li>Read more books</li>
-                                <li>Start Excercising daily</li>
-                                <li>Master time management</li>
-                            </ul>
-                        </table>   
-                    </table>
-                    
-                    <tr><td><hr></td></tr>
-                </td>
-                </tr>
-            </table>            
-                    </tr>
-                </table>
-        </tr>          
-    </table>
-</td>
-</tr>
-</table>
-<table  align = "center">
-    <tr>
-        <td><a href="https://www.facebook.com/rebecca.samuel.1420" target="_blank">Facebook</a></td>
-        <td>|</td>
-        <td><a href="https://www.instagram.com/rebecca_samuel/" target = _blank>Instagram</a></td>
-        <td>|</td>
-        <td><a href="https://www.linkedin.com/in/rebecca-samuel-33880a198/" target = _blank>Linkedin</a></td>
-        <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
-        <td>&copy; Rebecca Samuel, 2020</td>
-    </tr>
-</table>
-<br>
+<body class="bg-grey">
+    <div class="innerbox container-fluid mt-4 mb-5 border">
+        <img  class="mt-1" src="./assets/images/icon.png" alt="Rebecca's Profile Picture">
+        <span class="myname">Rebecca Samuel</span>
+        <form action="" class="form-inline float-right mt-5">
+        <input class="mr-2 border" type="search" id="site-search" name="q" aria-label="Search through site content">
+        <select  class="search-button border " name="Search this site" id="search-option"> 
+            <option value="site">Search this site </option>
+            <option value="web">Search the web</option>   
+        </select>
+        </form>
+
+        <div class="border-bottom " style="margin-bottom: 0;"></div>
+
+        
+        <p class="myemail">se.rebecca.samuel@gmail.com</p>
+        <hr>
+        <ul class="links">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="other_pages/about.html">About Me</a></li>
+            <li><a href="other_pages/code.html">Blog</a></li>
+            <li><a href="other_pages/contact.html">Contact</a></li>
+            <li><a href="other_pages/cv.html">Curriculum Vitae</a></li>
+        </ul>
+        <hr>
+        <div class="b1 " style="margin-top: 0;"></div>
+        
+        <div class="right-content">
+            <h6>Current Positions</h6>
+        </div>
+        
+    
+    </div>
+  
+<script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/js/bootstrap.bundle.js"></script>
+<script type="text/javascript" src="./assets/js/bootstrap.js"></script>
 </body>
 </html>
