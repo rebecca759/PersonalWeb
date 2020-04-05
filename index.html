@@ -9,26 +9,44 @@
             type = "image/x-icon">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/6454e424b1.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/mystyle.css">
+
+    <style>
+        @media screen and (max-width: 1000px) {
+    
+            .b1 {
+                height: 1100px;
+            }
+            
+        }
+        @media screen and (max-width: 600px) {
+
+            .b1 {
+                height: 1800px;
+                }
+        }
+    </style>
     
 </head>
 <body class="bg-grey">
     <div class="innerbox container-fluid mt-4 mb-5 border">
+    
         <img  class="mt-1" src="./assets/images/icon.png" alt="Rebecca's Profile Picture">
         <span class="myname">Rebecca Samuel</span>
         <form action="" class="form-inline float-right mt-5">
         <input class="mr-2 border" type="search" id="site-search" name="q" aria-label="Search through site content">
-        <select  class="search-button border " name="Search this site" id="search-option"> 
-            <option value="site">Search this site </option>
-            <option value="web">Search the web</option>   
-        </select>
+        <div class="form-group">
+            <select  class="search-button border" name="Search this site" id="search-option"> 
+                <option value="site">Search this site </option>
+                <option value="web">Search the web</option>   
+            </select>
+        </div>
         </form>
-
-        <div class="border-bottom " style="margin-bottom: 0;"></div>
-
-        
-        <p class="myemail">se.rebecca.samuel@gmail.com</p>
+        <div class="border-bottom" style="margin-bottom: 0;"></div>
+    
+        <div class="sidenav">
+        <p class="myemail mt-3">se.rebecca.samuel@gmail.com</p>
         <hr>
         <ul class="links">
             <li class="active"><a href="index.html">Home</a></li>
@@ -38,13 +56,53 @@
             <li><a href="other_pages/cv.html">Curriculum Vitae</a></li>
         </ul>
         <hr>
-        <div class="b1 " style="margin-top: 0;"></div>
+
+        </div>
+    <div class="b1"></div>
+        
         
         <div class="right-content">
             <h6>Current Positions</h6>
-        </div>
+            <ul class="ml-5 "><li>A second year Undergraduate Student at <a href="http://www.aau.edu.et/" target="_blank">Addis Ababa University</a> , pursuing a degree in Software Engineering. </li></ul>
         
-    
+            <p>I am passionate about exploring new things, adventurous and love taking risks.</p>
+            <p>When I first decided to study Software Engineering, I didn't have much knowledge about the field; It was a suggestion from my brother and all I knew was that I loved science and computing. I didn't think I would
+                find the field as interesting. Now after a year in this major, I think its one of the best decisions I've made. I love the ability of a programmer to make a machine work as per his/her desire just by writing a few commands. Eventhough it can be a bit tough and frustrating at times, 
+            I've learned to take things one step at a time and be patient.</p>
+            <p>I look forward to the next years of learning new things about programming and hopefully make a difference in my community.</p>
+
+            <h6 class="mt-4">Interests</h6>
+            <ul class="ml-3">
+                <li><strong>Sports</strong> 
+                <ul class="ml-3">
+                    <li>Swimming: One of my favourite sports is swimming. Ever since my childhood I have enjoyed swimming so much that I always participated in swimming competitions. Until this day swimming is on my number one list every time I want to go and relax.</li>
+                    <li>Tennis</li>
+                    <li>Running: Although I don't have time to do it these days, running for me is one of the most enjoyable sports.</li>
+                </ul></li>
+                <li class="mt-2"><strong>Volunteer Work/ Community Involvement: </strong>In addition to being a businessman, my father has also instilled in me the value of helping one’s community. His businesses have helped to create jobs and help local members of the community generate an income. This spirit of philanthropy inspired me to join my high school’s charity club, where I worked to raise money for various local causes including a charity drive benefiting underprivileged youth within Addis Ababa.</li>
+                <li  class="mt-2"><strong>Music</strong> I love music! It's a way to get me off so many things. When stressed, happy or in any other feeling music always helps. Usually I like listening to hip hop, reggae and pop music</li>
+                <li  class="mt-2"><strong>Reading:</strong> I would like to say that it's one of the best things. Especially fictions, they take you into a new world, a world where you're imagination works at its best as you try to see things in you're own mind. One of the best books I've read this year was 'Born in crime' by Trevor Noah. It's a non - fiction book which talks about him and his family during the apartheid in South Africa.</li>
+            </ul>  
+            <h6 class="mt-4">Goals</h6> 
+            <ul class="ml-3">
+                <li>Get to work with my parents and help them take their businesses to the next level</li>
+                <li> Master another language</li>
+                <li>Read more books</li>
+                <li>Start Excercising daily</li>
+                <li>Master time managements</li>
+            </ul>
+
+        </div>
+        <div class="b-bottom "></div>
+    </div>
+
+    <div class="footer">
+    <a href="https://www.facebook.com/rebecca.samuel.1420">Facebook</a>
+    <span>|</span>
+    <a  href="https://www.instagram.com/rebecca_samuel/">Instagram</a>
+    <span>|</span>
+    <a  href="https://www.linkedin.com/in/rebecca-samuel-33880a198/">Linkedin</a>
+    <span  class="ml-5">Copyright 2020 &copy; <a style="color: #00c;" href="index.html">Rebecca Samuel</a></span>
     </div>
   
 <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
