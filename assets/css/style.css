@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    width: 17%;
+    background-color: rgba(33, 33, 33, 1);
+    height: 100vh;
+    position: fixed;   
+}
+
+nav a {
+    padding: 5% 5% 0 15%;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Mulish', sans-serif;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav a img {
+    width: 20%;
+}
+
+.name_link {
+    font-family: 'Mulish', sans-serif;
+    font-size: 28px;
+}
+
+
+h1.title {
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+.h3 {
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.lists {
+    list-style-type: square;
+    font-size: 11pt;
+    line-height: 1.8;
+}
+
+.list_link {
+    text-decoration: underline;
+    color: #000000;  
+}
+
+.list_link:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+p {
+    font-size: 11pt;
+    line-height: 1.7;
+}
+
+.second_list {
+    list-style-type: circle;
+}
