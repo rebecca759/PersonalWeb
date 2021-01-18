@@ -2,16 +2,11 @@ body {
     font-family: sans-serif;
 }
 
-nav {
-    width: 17%;
-    background-color: rgba(33, 33, 33, 1);
-    height: 100vh;
-    position: fixed;   
+aside {
+    background-color: rgb(39, 39, 39);
 }
 
 nav a {
-    padding: 5% 5% 0 15%;
-    display: block;
     text-decoration: none;
     color: #ffffff;
     font-family: 'Mulish', sans-serif;
@@ -19,11 +14,11 @@ nav a {
 
 nav a:hover {
     text-decoration: none;
-    color: #ffffff;
+    color: #999999;
 }
 
 nav a img {
-    width: 20%;
+    width: 50px;
 }
 
 .name_link {
@@ -65,4 +60,23 @@ p {
 
 .second_list {
     list-style-type: circle;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler-icon:hover {
+    background-color: #686767bb;
+}
+
+.socials:hover {
+    color: rgb(92, 92, 92);
+}
+
+.active {
+    color: #999999;
 }

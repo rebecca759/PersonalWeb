@@ -3,98 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel = "icon" href =  
-    "../assets/images/icon2.png" 
-            type = "image/x-icon">
+    <title>Rebecca S.</title>
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="icon" href="../assets/images/icon2.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6454e424b1.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/css/mystyle.css">
-
-    <style>
-        .b1 {
-            height:101%;
-        }
-        @media screen and (max-width: 1000px) {
-    
-            .b1 {
-                height: 900px;
-            }
-            
-        }
-    </style>
-    
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
-<body class="bg-grey">
-    <div class="innerbox container-fluid mt-4 mb-5 border">
-    
-        <img  class="mt-1" src="../assets/images/icon.png" alt="Rebecca's Profile Picture">
-        <span class="myname">Rebecca Samuel</span>
-        <form action="" class="form-inline float-right mt-5">
-        <input class="mr-2 border" type="search" id="site-search" name="q" aria-label="Search through site content">
-        <div class="form-group">
-            <select  class="search-button border" name="Search this site" id="search-option"> 
-                <option value="site">Search this site </option>
-                <option value="web">Search the web</option>   
-            </select>
-        </div>
-        </form>
-        <div class="border-bottom" style="margin-bottom: 0;"></div>
-    
-        <div class="sidenav">
-        <p class="myemail mt-3">se.rebecca.samuel@gmail.com</p>
-        <hr>
-        <ul class="links">
-            <li><a href="../index.html">Home</a></li>
-            <li class="active"><a href="about.html">About Me</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="cv.html">Curriculum Vitae</a></li>
-        </ul>
-        <hr>
+<body>
+    <div class="container-fluid">
+        <div class="row min-vh-100 flex-column flex-md-row">
+            <aside class="col-12 col-md-3 sticky-top col-xl-2 col-xl-2 p-0 bg-dark flex-shrink-1">
 
-        </div>
-        <div class="b1"></div>
-        
-        
-        <div class="right-content">
-            <h6>About Me</h6>
-            <ol class="ml-3">
-                <li class="mt-2">I grew up in Addis Ababa, Ethiopia.</li>
-                <li class="mt-2">I have four siblings: two sisters and two brothers.</li>
-                <li class="mt-2">I love listening to music, mostly R&B.</li>
-                <li class="mt-2">I enjoy swimming, playing tennis and reading books.</li>
-                <li class="mt-2">My fondest childhood memory is spending time with my cousins.</li>
-                <li class="mt-2">I am the youngest child in my family.</li>
-                <li class="mt-2"> I have 3 dogs, Tiny, Johnny and Lucky.</li>
-                <li class="mt-2">My favorite subject in high school was Math and Biology.</li>
-                <li class="mt-2">In my group of friends, I am considered the sensible one.</li>
-                <li class="mt-2">The best advice I ever received was,"Learn to say no".</li>
-            </ol>
-        
+                <nav class="navbar sticky-top navbar-expand-md navbar-dark flex-md-column flex-row justify-content-start py-2 py-sm-0 pl-1" id="sidebar">
+                    <button type="button" class="navbar-toggler border-0" data-toggle="collapse" data-target="#nav" aria-controls="nav" 
+                    aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-           <!-- My Tweets -->
-           <div class="table table-borderless" >
-            <tr><td data-width="100"></td><a class="twitter-timeline" data-width="1200" data-height="400" href="https://twitter.com/Rebecca01064233?ref_src=twsrc%5Etfw">Tweets by Rebecca01064233</a>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></td></tr>
-            </div>
+                    <a class= "my-md-4 my-2 pt-md-3 ml-md-0" href="../index.html"><img src="../assets/images/icon.jpg" alt="Rebecca's Profile Pic"></a>
+                    <a class="name_link pb-md-5 ml-md-3 ml-3" href="../">Rebecca S.</a>
 
+                    <div class="collapse navbar-collapse" id="nav">
+                        <ul class="navbar-nav flex-column">
+                            <li class="nav-item mb-3">
+                                <a href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item mb-3">
+                                <a href="./about.html">About Me</a>
+                            </li>
+                            <li class="nav-item mb-3">
+                                <a href="./blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item mb-3">
+                                <a href="./contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./cv.html">Curriclulum Vitae</a>
+                            </li>   
+                        </ul>
+                    </div>
+                </nav>
+            </aside>
+            <main class="col px-0 flex-grow-1">
+                <div class="container py-3">
+                    <article>
+                        <h1 class="font-weight-bold">Hi Everyone!</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum placeat beatae fugiat distinctio modi in, suscipit dolor quam maxime reprehenderit expedita neque recusandae animi doloribus natus obcaecati itaque ut? Hic.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat animi non hic quisquam quasi. Cupiditate assumenda porro fugit qui tempora commodi pariatur earum autem voluptatem quas! Odit nisi nobis rerum. </p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum placeat beatae fugiat distinctio modi in, suscipit dolor quam maxime reprehenderit expedita neque recusandae animi doloribus natus obcaecati itaque ut? Hic.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat animi non hic quisquam quasi. Cupiditate assumenda porro fugit qui tempora commodi pariatur earum autem voluptatem quas! Odit nisi nobis rerum. </p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum placeat beatae fugiat distinctio modi in, suscipit dolor quam maxime reprehenderit expedita neque recusandae animi doloribus natus obcaecati itaque ut? Hic.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat animi non hic quisquam quasi. Cupiditate assumenda porro fugit qui tempora commodi pariatur earum autem voluptatem quas! Odit nisi nobis rerum. </p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum placeat beatae fugiat distinctio modi in, suscipit dolor quam maxime reprehenderit expedita neque recusandae animi doloribus natus obcaecati itaque ut? Hic.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat animi non hic quisquam quasi. Cupiditate assumenda porro fugit qui tempora commodi pariatur earum autem voluptatem quas! Odit nisi nobis rerum. </p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum placeat beatae fugiat distinctio modi in, suscipit dolor quam maxime reprehenderit expedita neque recusandae animi doloribus natus obcaecati itaque ut? Hic.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat animi non hic quisquam quasi. Cupiditate assumenda porro fugit qui tempora commodi pariatur earum autem voluptatem quas! Odit nisi nobis rerum. </p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum placeat beatae fugiat distinctio modi in, suscipit dolor quam maxime reprehenderit expedita neque recusandae animi doloribus natus obcaecati itaque ut? Hic.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat animi non hic quisquam quasi. Cupiditate assumenda porro fugit qui tempora commodi pariatur earum autem voluptatem quas! Odit nisi nobis rerum. </p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum placeat beatae fugiat distinctio modi in, suscipit dolor quam maxime reprehenderit expedita neque recusandae animi doloribus natus obcaecati itaque ut? Hic.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat animi non hic quisquam quasi. Cupiditate assumenda porro fugit qui tempora commodi pariatur earum autem voluptatem quas! Odit nisi nobis rerum. </p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum placeat beatae fugiat distinctio modi in, suscipit dolor quam maxime reprehenderit expedita neque recusandae animi doloribus natus obcaecati itaque ut? Hic.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat animi non hic quisquam quasi. Cupiditate assumenda porro fugit qui tempora commodi pariatur earum autem voluptatem quas! Odit nisi nobis rerum. </p>
+
+                    </article>
+                </div>
+            </main>
         </div>
-        <div class="b-bottom "></div>
     </div>
 
-    <div class="footer">
-    <a target="_blank" href="https://www.facebook.com/rebecca.samuel.1420">Facebook</a>
-    <span>|</span>
-    <a target="_blank" href="https://www.instagram.com/rebecca_samuel/">Instagram</a>
-    <span>|</span>
-    <a target="_blank" href="https://www.linkedin.com/in/rebecca-samuel-33880a198/">Linkedin</a>
-    <span  class="ml-5">Copyright 2020 &copy; <a style="color: #00c;" href="../index.html">Rebecca Samuel</a></span>
-    </div>
-  
-<script type="text/javascript" src="../assets/js/jquery.min.js"></script>
-<script type="text/javascript" src="../assets/js/bootstrap.bundle.js"></script>
-<script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../assets/js/bootstrap.bundle.js"></script>
+    <script type="text/javascript" src="../assets/js/bootstrap.js"></script>
 </body>
 </html>

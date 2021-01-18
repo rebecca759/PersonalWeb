@@ -3,195 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel = "icon" href =  
-    "../assets/images/icon2.png" 
-            type = "image/x-icon">
+    <title>Rebecca S.</title>
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="icon" href="../assets/images/icon2.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6454e424b1.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/css/mystyle.css">
-
-    <style>
-    
-
-        .b1 {
-            height: 2597px;
-        }
-
-        @media screen and (max-width: 1000px) {
-
-        .b1 {
-            height: 3400px;
-            }
-        }
-
-
-        @media screen and (max-width: 600px) {
-
-        .b1 {
-            height: 5000px;
-            }
-        }
-        
-      
-        h6 {
-            font-family: 'Noto Serif', serif;
-            font-size: 25px;
-            font-weight: normal;
-        }
-
-        .desc {
-            font-weight: lighter;
-            color: gray;
-            font-style: italic;
-        }
-
-        .b-b {
-            border: rgb(201, 199, 199) 1px solid;
-            border-style: dashed;        
-        }
-
-        .blockquote {
-            font-size: 20px;
-        }
-
-    </style>
-    
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
-<body class="bg-grey">
-    <div class="innerbox container-fluid mt-4 mb-5 border">
-    
-        <img  class="mt-1" src="../assets/images/icon.png" alt="Rebecca's Profile Picture">
-        <span class="myname">Rebecca Samuel</span>
-        <form action="" class="form-inline float-right mt-5">
-        <input class="mr-2 border" type="search" id="site-search" name="q" aria-label="Search through site content">
-        <div class="form-group">
-            <select  class="search-button border" name="Search this site" id="search-option"> 
-                <option value="site">Search this site </option>
-                <option value="web">Search the web</option>   
-            </select>
-        </div>
-        </form>
-        <div class="border-bottom" style="margin-bottom: 0;"></div>
-    
-        <div class="sidenav">
-        <p class="myemail mt-3">se.rebecca.samuel@gmail.com</p>
-        <hr>
-        <ul class="links">
-            <li><a href="../index.html">Home</a></li>
-            <li ><a href="about.html">About Me</a></li>
-            <li class="active"><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="cv.html">Curriculum Vitae</a></li>
-        </ul>
-        <hr>
+<body>
+    <div class="container-fluid">
+        <div class="row min-vh-100 flex-column flex-md-row">
+            <aside class="col-12 col-md-3 sticky-top col-xl-2 col-xl-2 p-0 bg-dark flex-shrink-1">
 
-        </div>
-    <div class="b1"></div>
-        
-        <div class="right-content">
-            
-            <div class="row">
-                <div class="col-md-10">
-                    <h6>How to deal with Frustration When Programming</h6>
-                    <p class="desc">by Rebecca on April 5, 2020</p>
-                    <div class="b-b"></div>
-                </div>
-            </div>
+                <nav class="navbar sticky-top navbar-expand-md navbar-dark flex-md-column flex-row justify-content-start py-2 py-sm-0 pl-1" id="sidebar">
+                    <button type="button" class="navbar-toggler border-0" data-toggle="collapse" data-target="#nav" aria-controls="nav" 
+                    aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-            <div class="row"> 
-                <div class="col-lg-5">
-                    <div class="card mt-4">
-                        <img src="../assets/images/giphy-3.gif" alt="" style="height: 300px;">
+                    <a class= "my-md-4 my-2 pt-md-3 ml-md-0" href="../index.html"><img src="../assets/images/icon.jpg" alt="Rebecca's Profile Pic"></a>
+                    <a class="name_link pb-md-5 ml-md-3 ml-3" href="../">Rebecca S.</a>
+
+                    <div class="collapse navbar-collapse" id="nav">
+                        <ul class="navbar-nav flex-column">
+                            <li class="nav-item mb-3">
+                                <a href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item mb-3">
+                                <a href="./about.html">About Me</a>
+                            </li>
+                            <li class="nav-item mb-3">
+                                <a href="./blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item mb-3">
+                                <a href="./contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./cv.html">Curriclulum Vitae</a>
+                            </li>   
+                        </ul>
                     </div>
-                </div>
-            </div>
-                    
-            <div class="row">
-                <div class="col-md-10">
-                    <p class="mt-3 text-justify">There are so many ways of getting blocked when programming. So many ways your code can fail to achieve what it’s supposed to achieve. 
-                        Frustration is at the core of the job of software engineering. Every programmer should remember to be patient, step back, analyze the situation objectively,
-                    and see failure as an opportunity to do better next time.</p>      
-                    <p class="text-justify">First, try to remember that you're doing things that not everyone is capable of. You might not manage to deal with the 
-                        problem right now, but its ok; you can fail. Don't necessarily see failure as a bad thing. It's just an opportunity to do better next time.
-                        Second, you can view frustration as a sign that you're getting outside of your comfort zone. If you want to learn stuff, you'll encounter problems 
-                        and most probably get stuck at some point. But you'll get over it in the end. It will make you stronger and wiser.
-                    </p>  
-                    <p class="text-justify">The most classic advice for dealing with frustration is to do something else. It doesn't mean you're avoiding the problem. 
-                        You'll have to come back it eventually. The goal is to give it a break. Focus on something else while you think it over in the back of your mind. 
-                        Another advice is to start writing down what you have to do. Break down the problem into more simple subproblems. Jumping directly to coding is a bad habit. 
-                        You have to make sure you fully understand the problem and build the plan of your approach to tackle it before heading to code. You could also write some pseudocode if it helps.  
-                    </p>  
-                    <p class="text-justify">There are most likely a lot of programmers who have already encountered the same issue you have. Use the internet. As a beginner, it takes time to find the proper solution. 
-                        After some practice, though, you become effective at finding help on Google. However, it's important to try not to blindly copy snippets of code from Github.
-                        As Bob Martin wrote in "The Clean Coder: A code of Conduct for Proffessional Programmers":
-                        <blockquote class="ml-5 blockquote" >
-                            <p>"Programming is so hard, in fact, that it is beyond the capability of one person to do it well. No matter how skilled you are, you will certainly benefit from another programmer’s thoughts and ideas."</p>
-                        </blockquote>
+                </nav>
+            </aside>
+            <main class="col px-0 flex-grow-1">
+                <div class="container py-3">
+                    <article>
+                        <h1 class="font-weight-bold">Hi Everyone!</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum placeat beatae fugiat distinctio modi in, suscipit dolor quam maxime reprehenderit expedita neque recusandae animi doloribus natus obcaecati itaque ut? Hic.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat animi non hic quisquam quasi. Cupiditate assumenda porro fugit qui tempora commodi pariatur earum autem voluptatem quas! Odit nisi nobis rerum. </p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum placeat beatae fugiat distinctio modi in, suscipit dolor quam maxime reprehenderit expedita neque recusandae animi doloribus natus obcaecati itaque ut? Hic.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat animi non hic quisquam quasi. Cupiditate assumenda porro fugit qui tempora commodi pariatur earum autem voluptatem quas! Odit nisi nobis rerum. </p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum placeat beatae fugiat distinctio modi in, suscipit dolor quam maxime reprehenderit expedita neque recusandae animi doloribus natus obcaecati itaque ut? Hic.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat animi non hic quisquam quasi. Cupiditate assumenda porro fugit qui tempora commodi pariatur earum autem voluptatem quas! Odit nisi nobis rerum. </p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum placeat beatae fugiat distinctio modi in, suscipit dolor quam maxime reprehenderit expedita neque recusandae animi doloribus natus obcaecati itaque ut? Hic.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat animi non hic quisquam quasi. Cupiditate assumenda porro fugit qui tempora commodi pariatur earum autem voluptatem quas! Odit nisi nobis rerum. </p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum placeat beatae fugiat distinctio modi in, suscipit dolor quam maxime reprehenderit expedita neque recusandae animi doloribus natus obcaecati itaque ut? Hic.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat animi non hic quisquam quasi. Cupiditate assumenda porro fugit qui tempora commodi pariatur earum autem voluptatem quas! Odit nisi nobis rerum. </p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum placeat beatae fugiat distinctio modi in, suscipit dolor quam maxime reprehenderit expedita neque recusandae animi doloribus natus obcaecati itaque ut? Hic.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat animi non hic quisquam quasi. Cupiditate assumenda porro fugit qui tempora commodi pariatur earum autem voluptatem quas! Odit nisi nobis rerum. </p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum placeat beatae fugiat distinctio modi in, suscipit dolor quam maxime reprehenderit expedita neque recusandae animi doloribus natus obcaecati itaque ut? Hic.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat animi non hic quisquam quasi. Cupiditate assumenda porro fugit qui tempora commodi pariatur earum autem voluptatem quas! Odit nisi nobis rerum. </p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum placeat beatae fugiat distinctio modi in, suscipit dolor quam maxime reprehenderit expedita neque recusandae animi doloribus natus obcaecati itaque ut? Hic.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat animi non hic quisquam quasi. Cupiditate assumenda porro fugit qui tempora commodi pariatur earum autem voluptatem quas! Odit nisi nobis rerum. </p>
 
-                    </p>  
+                    </article>
                 </div>
-            </div>
-
-            <div class="row mt-4">
-                <div class="col-md-10">
-                    <h6>How to Overcome Distractions</h6>
-                    <p class="desc">by Rebecca on April 7, 2020</p>
-                    <div class="b-b"></div>
-                </div>
-            </div>
-
-            <div class="row"> 
-                <div class="col-lg-5">
-                    <div class="card mt-4">
-                        <img src="../assets/images/pic4.jpeg" alt="" style="height: 300px;">
-                    </div>
-                </div>
-            </div>
-                    
-            <div class="row ">
-                <div class="col-md-10">
-                    <p class="mt-3 text-justify">Distractions can seem impossible to avoid. Statistics show that distractions cause a massive loss in productivity. The 
-                        typical manager is interrupted every eight minutes, and employees generally spend 28 percent of their time dealing with unnecessary interruptions and 
-                        trying to get back on track. So, how can you take back control of your time and attention? Here are proven strategies for overcoming distractions and reclaiming your focus.</p>  
-                       
-                    <h5 class="font-weight-bold">1. Set objectives every day.</h5>
-                    <p class="mt-3 text-justify">A long list of things to do can feel tiring and leave us feeling overwhelmed. We’re ready to give up before we start, and that’s when it 
-                        becomes easy to give in to distractions. You can overcome this by giving yourself objectives to accomplish every day. Write them on a sticky note and post it where you can see it 
-                        every time you look up from your work. By limiting the number of daily goals, you’ll have clearly defined what you need to work on. You’ll work with greater intention on those tasks and your mind will be more focused.</p>  
-                        
-                    <h5 class="font-weight-bold">2. Take on more challenging work.</h5>
-                    <p class="mt-3 text-justify">If you’re having trouble focusing and are frequently distracted, it may be that your work isn’t engaging you fully. 
-                        You might feel like you’re working hard all day, but it could be that your mind is fighting boredom and looking to fill the time with something 
-                        more interesting. Complex tasks demand more of our working memory and attention, meaning we have less mental capacity remaining to be distracted. We’re most likely to enter into a state of total work immersion when our abilities are challenged.</p>  
-                    <p class="mt-3 text-justify"> When we take on more complex work that pushes our skill and intellectual limits, we can become consumed and hyper-focused on the task. 
-                        Our minds are wired to focus on anything that’s novel, pleasurable or threatening. And tackling these tasks gives us a sense of achievement.</p>
-                    
-                    <h5 class="font-weight-bold">3. Put yourself in distraction-free mode.</h5>
-                    <p class="mt-3 text-justify">Begin building habits that help you eliminate distractions and stay focused. Start by creating an environment in which you’re less tempted to get preoccupied with something other than what you’re working on. 
-                        This isn’t always easy to do. For one, many of us rely on a computer to do our work, but we also find our biggest distractions enabled by the use of a computer on the internet. If you constantly find yourself wandering over to video or shopping websites, try using a website blocker app.</p>  
-                    <p class="mt-3 text-justify">Work to create habits that signal to yourself and those around you that you’re in distraction-free mode. Put on noise-canceling headphones. Turn off your phone or put it on silent and move it away from you (so you can’t easily pick it up). Remove as many excuses and distractions as you can so you can bring your full attention to one task at a time.</p>
-                   
-                </div>
-            </div>
-           
+            </main>
         </div>
-        <div class="b-bottom "></div>
     </div>
 
-    <div class="footer">
-    <a target="_blank" href="https://www.facebook.com/rebecca.samuel.1420">Facebook</a>
-    <span>|</span>
-    <a target="_blank" href="https://www.instagram.com/rebecca_samuel/">Instagram</a>
-    <span>|</span>
-    <a target="_blank" href="https://www.linkedin.com/in/rebecca-samuel-33880a198/">Linkedin</a>
-    <span  class="ml-5">Copyright 2020 &copy; <a style="color: #00c;" href="../index.html">Rebecca Samuel</a></span>
-    </div>
-  
-<script type="text/javascript" src="../assets/js/jquery.min.js"></script>
-<script type="text/javascript" src="../assets/js/bootstrap.bundle.js"></script>
-<script type="text/javascript" src="../assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../assets/js/bootstrap.bundle.js"></script>
+    <script type="text/javascript" src="../assets/js/bootstrap.js"></script>
 </body>
 </html>
