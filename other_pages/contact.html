@@ -15,7 +15,7 @@
     <div class="container-fluid">
         <div class="row min-vh-100 flex-column flex-xl-row">
             <aside class="col-12 sticky-top col-xl-2 p-0 ">
-                <nav class="navbar sticky-top navbar-expand-xl navbar-light flex-xl-column flex-row pl-1" id="sidebar">
+                <nav class="navbar sticky-top navbar-expand-xl navbar-dark flex-xl-column flex-row pl-1" id="sidebar">
                     <div class="justify-content-start m-0 mt-xl-5">
                         <button type="button" class="navbar-toggler border-0" data-toggle="collapse" data-target="#nav" aria-controls="nav" 
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -23,7 +23,7 @@
                         </button>
                         
                         <a class= "d-xl-block ml-xl-4 mb-xl-5" href="index.html"><img src="../assets/images/icon.jpg" alt="Rebecca's Profile Pic"></a>
-                        <a class="name_link ml-xl-4 ml-3" href="#">Rebecca S.</a>
+                        <a class="name_link ml-xl-4 ml-3 " href="#">Rebecca S.</a>
                     </div>
 
                     <div class="collapse navbar-collapse order-last" id="nav">
@@ -46,7 +46,7 @@
                         </ul>
                     </div>
 
-                    <ul class="nav justify-content-center mb-3 mb-xl-5 mt-xl-2 mt-3">
+                    <ul class="nav justify-content-center mb-xl-5 mt-xl-2">
                         <li class="nav-item">
                             <a href="https://twitter.com/Rebecca01064233?ref_src=twsrc%5Etfw" target="_blank" class="nav-link text-white"><i class="fab fa-twitter-square fa-lg socials"></i></a>
                         </li>
@@ -61,10 +61,64 @@
                 </nav>
             </aside>
             <main class="col px-0 flex-grow-1">
-                <div class="container py-5">
+                <div class="container py-5 contact_form">
                     <article class="mx-3 mx-xl-4 mx-lg-5">
-                        <h1 class="text-center mt-xl-5 pb-3 mb-5 title">Get in Touch!</h1>
-                        
+                        <h1 class=" mt-xl-5 pb-3 mb-5 title">Get in Touch!</h1>
+                        <form method="POST" action="mailto:se.rebecca.samuel@gmail.com" enctype="utf-8">
+
+                            <div class="form-group">
+                                <label for="name">First Name</label>
+                                <input class="form-control w-50 form-rounded" type="text" name="fName" id="fName" pattern="[A-Za-z]{1,20}" title="Numbers aren't allowed in names" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="name">Last Name</label>
+                                <input class="form-control w-50 form-rounded" type="text" name="LName" id="lName" pattern="[A-Za-z]{1,20}" title="Numbers aren't allowed in names" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input class="form-control w-50 form-rounded" type="email" name="email" id="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="telephone">Phone Number</label>
+                                <input class="form-control w-50 form-rounded" type="tel" name="tel" id="tel">
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-12 pl-0" for="gender">Gender</label>
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" id="fem" name="gender" value="f">
+                                    <label class="custom-control-label" for="fem">Female</label>
+                                </div>
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" id="m" name="gender" value="m">
+                                    <label class="custom-control-label" for="m">Male</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-12 pl-0" for="country">Country</label>
+                                <select class="custom-select w-50 form-rounded" name="country" id="country">
+                                    <option value="Ethiopia">Ethiopia</option>
+                                    <option value="Kenya">Kenya</option>
+                                    <option value="Djibouti">Djibouti</option>
+                                    <option value="South Africa">South Africa</option>
+                                    <option value="Nigeria">Nigeria</option>
+                                    <option value="USA">United States</option>
+                                    <option value="UK">United Kingdom</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="detail">Leave Your Comment</label>
+                                <textarea class="form-control w-50 form-rounded" name="comment" id="comment" cols="30" rows="15"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-secondary form-rounded pl-3 pr-3 pt-2 pb-2">Send Message</button>
+                        </form>
+    
                     </article>
                 </div>
             </main>
