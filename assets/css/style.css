@@ -28,8 +28,8 @@ nav a img {
 
 
 h1.title {
-    font-family: sans-serif;
-    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
 }
 
 .h3 {
@@ -58,6 +58,11 @@ p {
     line-height: 1.7;
 }
 
+div.about-facts {
+    font-size: 14pt;
+    line-height: 1.7;
+}
+
 .second_list {
     list-style-type: circle;
 }
@@ -67,6 +72,10 @@ p {
 .navbar-toggler-icon:focus {
     outline: none;
     box-shadow: none;
+}
+
+ol li {
+    line-height: 2.3;
 }
 
 .navbar-toggler-icon:hover {
@@ -114,4 +123,8 @@ p {
     .socials:hover {
         color: rgb(126, 126, 126);
     }
+}
+
+blockquote.twitter-tweet {
+    font-weight: normal!important;
 }
