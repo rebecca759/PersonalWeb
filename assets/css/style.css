@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 aside {
@@ -39,7 +39,7 @@ h1.title {
 
 .lists {
     list-style-type: square;
-    font-size: 11pt;
+    font-size: 12pt;
     line-height: 1.8;
 }
 
@@ -54,8 +54,8 @@ h1.title {
 }
 
 p {
-    font-size: 11pt;
-    line-height: 1.7;
+    font-size: 12pt;
+    line-height: 1.8;
 }
 
 div.about-facts {
@@ -125,6 +125,23 @@ ol li {
     }
 }
 
-blockquote.twitter-tweet {
-    font-weight: normal!important;
+.desc {
+    font-weight: lighter;
+    color: gray;
+    font-style: italic;
+}
+
+.blog-titles {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.blog-img {
+    height: 300px;
+    width: 50%;
+}
+
+h5 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
 }
