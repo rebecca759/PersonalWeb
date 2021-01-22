@@ -194,3 +194,37 @@ h5 {
     font-weight: 600;
     font-size: 25px;
 }
+
+.search-icon {
+    margin-left: auto;
+    font-size: 22px;
+}
+
+.search-button {
+    border: none;
+    background-color: #ffffff;
+    color: #2e2e2e;
+    border-radius: 1rem;
+}
+
+.search-button-first {
+    border: none;
+    background-color: rgb(39, 39, 39);
+    color: #ffffff;
+    border-radius: 1rem;
+}
+
+.search-button-first:active, .search-button-first:focus {
+    box-shadow: none;
+    outline: none;
+    border: none;
+    background-color: rgb(77, 77, 77);
+}
+
+.search-button:active, .search-button:focus {
+    box-shadow: none;
+    outline: none;
+    border: none;
+    background-color: rgb(230, 230, 230);
+}
+
